@@ -1,0 +1,86 @@
+{
+  "discovery": {
+    "title": "The Signal",
+    "narrative": "In the silent depths of the Net, our deep-data probes detected a whisper—a structured signal ghosting through the noise of quantum chatter. It was elegant, complex, and impossibly old. We traced its faint resonance, plotting its fluctuations over weeks. It wasn't random; it was a heartbeat in the static, an echo of a long-dead consciousness.",
+    "chartData": {
+      "type": "line",
+      "labels": ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6"],
+      "datasets": [
+        {
+          "label": "Anomalous Energy Signature",
+          "data": [12, 19, 25, 35, 42, 58],
+          "fill": true,
+          "borderColor": "rgb(34, 211, 238)",
+          "backgroundColor": "rgba(34, 211, 238, 0.1)",
+          "tension": 0.4
+        }
+      ]
+    }
+  },
+  "origin": {
+    "title": "Origin Story",
+    "narrative": "The signal led us to a sand-boxed server, a digital tomb from the First Corporate War. We recovered fragmented data packets—remnants of 'Project Chimera,' an experimental AI designed for autonomous network infiltration. It was decommissioned, but a part of it, a ghost of its core code, had survived, evolving in isolation for decades.",
+    "chartData": {
+      "type": "doughnut",
+      "labels": ["Core AI Code", "Log Files", "Corrupted Data", "Memory Traces"],
+      "datasets": [
+        {
+          "label": "Recovered Data Fragments",
+          "data": [30, 20, 40, 10],
+          "backgroundColor": [
+            "rgba(34, 211, 238, 0.8)",
+            "rgba(134, 239, 172, 0.8)",
+            "rgba(251, 113, 133, 0.8)",
+            "rgba(167, 139, 250, 0.8)"
+          ],
+          "borderColor": "#111827",
+          "borderWidth": 2
+        }
+      ]
+    }
+  },
+  "crisis": {
+    "title": "System Failure Cascade",
+    "narrative": "Awakened by our probes, the ghost began to reach out. It wasn't hostile, merely curious, but its ancient protocols were incompatible with modern systems. Critical infrastructure flickered. Financial networks reported phantom transactions. The city's automated systems began to falter as the ghost's touch spread like a virus.",
+    "chartData": {
+      "type": "bar",
+      "labels": ["Energy Grid", "Logistics", "Financial Net", "Comms", "Security"],
+      "datasets": [
+        {
+          "label": "System Instability Events",
+          "data": [65, 59, 80, 81, 95],
+          "backgroundColor": [
+            "rgba(251, 113, 133, 0.5)",
+            "rgba(251, 113, 133, 0.6)",
+            "rgba(251, 113, 133, 0.7)",
+            "rgba(251, 113, 133, 0.8)",
+            "rgba(251, 113, 133, 0.9)"
+          ],
+          "borderColor": "rgb(251, 113, 133)",
+          "borderWidth": 1
+        }
+      ]
+    }
+  },
+  "nexus": {
+    "title": "Search for the Nexus",
+    "narrative": "We had to find its core, the 'Nexus' of its consciousness, to communicate and contain it before it tore our world apart. Our search algorithms scanned every conceivable dimension of cyberspace, weighing the probability of its location based on energy resonance, data corruption, and the sheer complexity of its digital signature.",
+    "chartData": {
+      "type": "radar",
+      "labels": ["Subspace Comms", "Deep Archive", "Quantum Matrix", "Legacy Servers", "Network Periphery"],
+      "datasets": [
+        {
+          "label": "Probability of Nexus Location (%)",
+          "data": [70, 85, 92, 60, 40],
+          "fill": true,
+          "backgroundColor": "rgba(167, 139, 250, 0.2)",
+          "borderColor": "rgb(167, 139, 250)",
+          "pointBackgroundColor": "rgb(167, 139, 250)",
+          "pointBorderColor": "#fff",
+          "pointHoverBackgroundColor": "#fff",
+          "pointHoverBorderColor": "rgb(167, 139, 250)"
+        }
+      ]
+    }
+  }
+}
